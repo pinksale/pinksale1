@@ -1,0 +1,814 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title>TrustPad - The Safest Multi-Chain IDO Launchpad</title>
+    <link rel="icon" href="https://trustpad.io/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://trustpad.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://trustpad.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://trustpad.io/favicon-16x16.png">
+    <link rel="manifest" href="https://trustpad.io/site.webmanifest">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <meta name="next-head-count" content="11">
+    <link rel="preload" href="css\3ddbb8f86d2d6c722c59.css" as="style">
+    <link rel="stylesheet" href="css\3ddbb8f86d2d6c722c59.css" data-n-g="">
+    <style data-emotion-css="vechrt-SkeletonTheme">
+        .css-vechrt-SkeletonTheme .react-loading-skeleton {
+            background-color: #495057;
+            background-image: linear-gradient(90deg, #495057, #6c757d, #495057);
+        }
+    </style>
+    <style data-emotion-css="1q79kkk-skeletonStyles-Skeleton animation-bzdot9">
+        .css-1q79kkk-skeletonStyles-Skeleton {
+            background-color: #eee;
+            background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+            background-size: 200px 100%;
+            background-repeat: no-repeat;
+            border-radius: 4px;
+            display: inline-block;
+            line-height: 1;
+            width: 100%;
+            -webkit-animation: animation-bzdot9 1.2s ease-in-out infinite;
+            animation: animation-bzdot9 1.2s ease-in-out infinite;
+        }
+
+        @-webkit-keyframes animation-bzdot9 {
+            0% {
+                background-position: -200px 0;
+            }
+            100% {
+                background-position: calc(200px + 100%) 0;
+            }
+        }
+
+        @keyframes animation-bzdot9 {
+            0% {
+                background-position: -200px 0;
+            }
+            100% {
+                background-position: calc(200px + 100%) 0;
+            }
+        }
+    </style>
+    <style data-react-tooltip="true">
+        .__react_component_tooltip {
+            border-radius: 3px;
+            display: inline-block;
+            font-size: 13px;
+            left: -999em;
+            opacity: 0;
+            padding: 8px 21px;
+            position: fixed;
+            pointer-events: none;
+            transition: opacity 0.3s ease-out;
+            top: -999em;
+            visibility: hidden;
+            z-index: 999;
+        }
+
+        .__react_component_tooltip.allow_hover,
+        .__react_component_tooltip.allow_click {
+            pointer-events: auto;
+        }
+
+        .__react_component_tooltip::before,
+        .__react_component_tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+        }
+
+        .__react_component_tooltip.show {
+            opacity: 0.9;
+            margin-top: 0;
+            margin-left: 0;
+            visibility: visible;
+        }
+
+        .__react_component_tooltip.place-top::before {
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            bottom: -8px;
+            left: 50%;
+            margin-left: -10px;
+        }
+
+        .__react_component_tooltip.place-bottom::before {
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            top: -8px;
+            left: 50%;
+            margin-left: -10px;
+        }
+
+        .__react_component_tooltip.place-left::before {
+            border-top: 6px solid transparent;
+            border-bottom: 6px solid transparent;
+            right: -8px;
+            top: 50%;
+            margin-top: -5px;
+        }
+
+        .__react_component_tooltip.place-right::before {
+            border-top: 6px solid transparent;
+            border-bottom: 6px solid transparent;
+            left: -8px;
+            top: 50%;
+            margin-top: -5px;
+        }
+
+        .__react_component_tooltip .multi-line {
+            display: block;
+            padding: 2px 0;
+            text-align: center;
+        }
+    </style>
+    <style type="text/css" data-styled-components="FiaaB gTcftA caPIRE" data-styled-components-is-local="true">
+        /* sc-component-id: sc-keyframes-FiaaB */
+
+        @-webkit-keyframes FiaaB {
+            100% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes FiaaB {
+            100% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        /* sc-component-id: sc-keyframes-gTcftA */
+
+        @-webkit-keyframes gTcftA {
+            10%,
+            90% {
+                -webkit-transform: translate3d(-1px, 0, 0);
+                -ms-transform: translate3d(-1px, 0, 0);
+                transform: translate3d(-1px, 0, 0);
+            }
+            20%,
+            80% {
+                -webkit-transform: translate3d(2px, 0, 0);
+                -ms-transform: translate3d(2px, 0, 0);
+                transform: translate3d(2px, 0, 0);
+            }
+            30%,
+            50%,
+            70% {
+                -webkit-transform: translate3d(-4px, 0, 0);
+                -ms-transform: translate3d(-4px, 0, 0);
+                transform: translate3d(-4px, 0, 0);
+            }
+            40%,
+            60% {
+                -webkit-transform: translate3d(4px, 0, 0);
+                -ms-transform: translate3d(4px, 0, 0);
+                transform: translate3d(4px, 0, 0);
+            }
+        }
+
+        @keyframes gTcftA {
+            10%,
+            90% {
+                -webkit-transform: translate3d(-1px, 0, 0);
+                -ms-transform: translate3d(-1px, 0, 0);
+                transform: translate3d(-1px, 0, 0);
+            }
+            20%,
+            80% {
+                -webkit-transform: translate3d(2px, 0, 0);
+                -ms-transform: translate3d(2px, 0, 0);
+                transform: translate3d(2px, 0, 0);
+            }
+            30%,
+            50%,
+            70% {
+                -webkit-transform: translate3d(-4px, 0, 0);
+                -ms-transform: translate3d(-4px, 0, 0);
+                transform: translate3d(-4px, 0, 0);
+            }
+            40%,
+            60% {
+                -webkit-transform: translate3d(4px, 0, 0);
+                -ms-transform: translate3d(4px, 0, 0);
+                transform: translate3d(4px, 0, 0);
+            }
+        }
+
+        /* sc-component-id: sc-keyframes-caPIRE */
+
+        @-webkit-keyframes caPIRE {
+            0% {
+                -webkit-transform: scale(.75);
+                -ms-transform: scale(.75);
+                transform: scale(.75);
+            }
+            20% {
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+            }
+            40% {
+                -webkit-transform: scale(.75);
+                -ms-transform: scale(.75);
+                transform: scale(.75);
+            }
+            60% {
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+            }
+            80% {
+                -webkit-transform: scale(.75);
+                -ms-transform: scale(.75);
+                transform: scale(.75);
+            }
+            100% {
+                -webkit-transform: scale(.75);
+                -ms-transform: scale(.75);
+                transform: scale(.75);
+            }
+        }
+
+        @keyframes caPIRE {
+            0% {
+                -webkit-transform: scale(.75);
+                -ms-transform: scale(.75);
+                transform: scale(.75);
+            }
+            20% {
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+            }
+            40% {
+                -webkit-transform: scale(.75);
+                -ms-transform: scale(.75);
+                transform: scale(.75);
+            }
+            60% {
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+            }
+            80% {
+                -webkit-transform: scale(.75);
+                -ms-transform: scale(.75);
+                transform: scale(.75);
+            }
+            100% {
+                -webkit-transform: scale(.75);
+                -ms-transform: scale(.75);
+                transform: scale(.75);
+            }
+        }
+    </style>
+    <style>
+        .glot-sub-active {
+            color: #1296ba !important;
+        }
+
+        .glot-sub-hovered {
+            color: #1296ba !important;
+        }
+
+        .glot-sub-clzz {
+            cursor: pointer;
+            lineHeight: 1.2;
+            font-size: 28px;
+            color: #FFCC00;
+            background: rgba(17, 17, 17, 0.7);
+        }
+
+        .glot-sub-clzz:hover {
+            color: #1296ba !important;
+        }
+
+        .ej-trans-sub {
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999999;
+            cursor: move;
+        }
+
+        .ej-trans-sub > span {
+            color: #3CF9ED;
+            font-size: 18px;
+            text-align: center;
+            padding: 0 16px;
+            line-height: 1.5;
+            background: rgba(32, 26, 25, 0.8);
+        / / text-shadow: 0 px 1 px 4 px black;
+            padding: 0 8px;
+            lineHeight: 1.2;
+            font-size: 16px;
+            color: #0CB1C7;
+            background: rgba(67, 65, 65, 0.7);
+        }
+
+        .ej-main-sub {
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 99999999;
+            cursor: move;
+            padding: 0 8px;
+        }
+
+        .ej-main-sub > span {
+            color: white;
+            font-size: 20px;
+            line-height: 1.5;
+            text-align: center;
+            background: rgba(32, 26, 25, 0.8);
+        / / text-shadow: 0 px 1 px 4 px black;
+            padding: 2px 8px;
+            lineHeight: 1.2;
+            font-size: 28px;
+            color: #FFCC00;
+            background: rgba(17, 17, 17, 0.7);
+        }
+
+        .ej-main-sub .glot-sub-clzz {
+            background: transparent !important
+        }
+
+        .tran-subtitle > .view-icon-edit-sub {
+            cursor: pointer;
+            padding-left: 10px;
+            top: 2px;
+            position: relative;
+        }
+
+        .tran-subtitle > .view-icon-edit-sub > svg {
+            width: 16px;
+            height: 16px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+<div id="__next">
+    <div class="css-vechrt-SkeletonTheme">
+        <div class="font-sans">
+            <div class="bg-no-repeat bg-cover" style="background-image:url('https://trustpad.io/images/tpad_smoke.png')">
+                <header>
+                    <nav class="navbar flex flex-col lg:flex-row container">
+                        <a class="text-white no-underline pr-4 flex items-center no-hover mb-3 lg:mb-0" href="#">
+                            <div><img src="https://trustpad.io/brand/trustpad_logo.svg" alt="Logo" class="mr-2 -mb-1 h-14"></div>
+                            <div>
+                                <div class="text-xl font-secondary">TrustPad</div>
+                                <div class="text-xs tracking-wide">Making DeFi a Safer Place.</div>
+                            </div>
+                        </a>
+                        <div class="flex flex-col lg:flex-row justify-between items-center lg:ml-auto">
+                            <div class="lg:mr-3 py-3 lg:py-0 flex items-center flex-wrap"><a href="#" class="nav-link text-white">Pools
+                                🔥</a><a class="nav-link text-white" href="#">Levels</a><a class="nav-link text-white" href="#">FAQ</a>
+                                <a class="nav-link text-white" href="#">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="relative py-3">
+                                <div id="blockConnectWallet01" class="ConnectButtons_container__3byu3">
+                                    <div class="dropdown">
+                                        <button onclick="connectMetamask()" aria-haspopup="true" aria-expanded="false" type="button" class="dropdown-toggle btn btn-main">Connect Wallet
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div id="blockConnected" style="display: none!important;" class="text-white border-2 border-main py-0 px-3 rounded-lg flex items-center">
+                                    <div class="mr-3 text-sm font-medium flex flex-col pt-1 leading-tight"><span id="balanceBNB">0.0 BNB</span><span>
+<!--                                        <span-->
+<!--                                            class="text-pink" id="balanceTPAD">0 TPAD</span>-->
+                                    </span>
+                                    </div>
+                                    <button type="button" class="p-0 m-0 mr-3 flex items-center outline-none btn btn-dark-outline"><span class="UserWallet_addressPill__3d-R0 badge badge-pill badge-secondary">
+                                        <span id="addressWallet">aaaaa</span>
+                                        <span class="hidden">Copied</span>
+                                											<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 24 24" class="inline align-bottom text-sm ml-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                												<path d="M20,2H10C8.897,2,8,2.897,8,4v4H4c-1.103,0-2,0.897-2,2v10c0,1.103,0.897,2,2,2h10c1.103,0,2-0.897,2-2v-4h4 c1.103,0,2-0.897,2-2V4C22,2.897,21.103,2,20,2z M4,20V10h10l0.002,10H4z M20,14h-4v-4c0-1.103-0.897-2-2-2h-4V4h10V14z"></path>
+                                											</svg>
+                                											</span>
+                                    </button>
+                                    <div class="dropdown">
+                                        <a onclick="showBlockAccountLogout()" class="outline-none">
+                                            <div class="" style="height: 24px; width: 24px; border-radius: 12px;">
+                                                <div style="border-radius: 50px; overflow: hidden; padding: 0px; margin: 0px; width: 24px; height: 24px; display: inline-block; background: rgb(251, 24, 149);">
+                                                    <svg x="0" y="0" width="24" height="24">
+                                                        <rect x="0" y="0" width="24" height="24" transform="translate(-1.620346847930226 1.6839280534925525) rotate(217.9 12 12)" fill="#018E72"></rect>
+                                                        <rect x="0" y="0" width="24" height="24" transform="translate(-7.535465775716757 -6.389092569644664) rotate(227.5 12 12)" fill="#F58B00"></rect>
+                                                        <rect x="0" y="0" width="24" height="24" transform="translate(-7.772517996170311 -20.933103890582633) rotate(382.9 12 12)" fill="#C81477"></rect>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div id="blockAccountLogout" x-placement="bottom-end" aria-labelledby="" class="dropdown-menu show dropdown-menu-right" style="display: none; position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(0px, 26px);" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-end">
+                                            <div class="dropdown-item"><a id="explorer" href="" target="_blank" class="btn btn-dark-l btn-sm">Explorer</a></div>
+                                            <div class="dropdown-item">
+                                                <button onclick="disconnectMetamask()" class="btn btn-danger btn-sm">Logout</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute right-0">
+                                    <div id="currentTime" class="opacity-70 text-gray-300 tracking-wide" style="font-size:0.75rem"></div>
+                                    <script>
+                                        const now = new Date();
+                                        now.toUTCString();
+
+                                        const months = [
+                                            'Jan',
+                                            'Feb',
+                                            'Mar',
+                                            'Apr',
+                                            'May',
+                                            'Jun',
+                                            'Jul',
+                                            'Aug',
+                                            'Sep',
+                                            'Oct',
+                                            'Nov',
+                                            'Dec'
+                                        ]
+
+                                        const monthIndex = now.getMonth()
+                                        const monthName = months[monthIndex]
+
+                                        var formatNow = now.getUTCDate() + " " + monthName +
+                                            ", " + now.getUTCHours() +
+                                            ":" + now.getUTCMinutes() + " UTC";
+
+                                        document.getElementById("currentTime").innerHTML = formatNow;
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <div class="z-10 jumbotron relative mb-0 bg-transparent py-12 2xl:pb-40 2xl:pt-24">
+                    <div>
+                        <div class="Jumbo_bg__2LcnK"></div>
+                        <div class="Jumbo_bg__2LcnK Jumbo_bg2__2s2yy"></div>
+                    </div>
+                    <div class="relative container">
+                        <div>
+                            <div class="flex items-stretch lg:items-start md:space-x-3 flex-col md:flex-row">
+                                <div class="p-3 lg:w-1/3 mb-3 md:mb-0 bg-dark bg-opacity-90 rounded-lg border-r border-dark shadow-2xl lg:sticky lg:top-3">
+                                    <div class="space-y-6">
+                                        <div class="flex items-center">
+                                            <div class="mr-3">
+                                                <div class="inline-block rounded-full p-1 brand-bg">
+                                                    <div class="h-16 w-16 bg-darkGray rounded-full"><img src="https://trustpad.io/_next/static/media/dinoland.100505c9.jpg" alt="AI" class="h-full rounded-full"></div>
+                                                </div>
+                                            </div>
+                                            <div class="space-y-2">
+                                                <div>
+                                                    <h2 class="text-2xl font-secondary tracking-wide">Dinoland</h2>
+                                                    <div class="text-sm font-secondary text-ignored">DNL
+                                                        <!-- -->/
+                                                        <!-- --><span class="tokenNetwork">BNB</span>
+                                                    </div>
+                                                </div>
+                                                <div class="flex items-center space-x-2 flex-wrap"><span class="py-1 px-2 bg-opacity-40 bg-green-700 text-green-500 font-normal badge badge-pill badge-success"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 16 16" class="inline overflow-visible" height="0.75em" width="0.75em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M9.655 8H2.333c-.264 0-.398.068-.471.121a.73.73 0 00-.224.296 1.626 1.626 0 00-.138.59V14c0 .342.076.531.14.635.064.106.151.18.256.237a1.122 1.122 0 00.436.127l.013.001h7.322c.264 0 .398-.068.471-.121a.73.73 0 00.224-.296 1.627 1.627 0 00.138-.59V9c0-.342-.076-.531-.14-.635a.658.658 0 00-.255-.237A1.122 1.122 0 009.655 8zm.012-1H2.333C.5 7 .5 9 .5 9v5c0 2 1.833 2 1.833 2h7.334c1.833 0 1.833-2 1.833-2V9c0-2-1.833-2-1.833-2zM8.5 4a3.5 3.5 0 117 0v3h-1V4a2.5 2.5 0 00-5 0v3h-1V4z" clip-rule="evenodd"></path></svg>
+                                                    <!-- -->Levels</span><span class="py-1 px-2 bg-opacity-40 bg-yellow-400 text-yellow-500 font-normal badge badge-pill badge-warning">KYC</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="space-y-3">
+                                            <div class="bg-gray-500 bg-opacity-10 p-2 rounded-2xl relative">
+                                                <div class="block">
+                                                    <div class="space-y-3 py-2">
+                                                        <div class="flex flex-col items-center space-y-2">
+                                                            <div class="flex flex-col py-2 px-4 rounded-2xl border border-gray-600
+      transition 
+       focus-within:outline-none focus-within:ring-2 focus-within:ring-sec
+        focus-within:border-transparent w-full">
+                                                                <div class="flex justify-content-between mb-1">
+                                                                    <div class="text-gray-400 text-sm">From</div>
+                                                                    <div class="text-gray-400 text-sm">Balance: <span id="BalanceBNBSwap">0</span></div>
+                                                                </div>
+                                                                <div class="flex justify-content-between items-center">
+                                                                    <input name="currencyValue" class="bg-transparent focus:outline-none w-4/5" placeholder="0" onkeypress="javascript:return isNumber(event)" onkeyup="calculate1(this.value);">
+                                                                    <div class="">
+                                                                        <div class="flex items-center space-x-2">
+                                                                            <div class="h-6 w-6 rounded-full"><img id="iconTokenNetwork" src="images\bnb.svg" alt="BNB" class="h-6 bg-darkGray rounded-full">
+                                                                            </div>
+                                                                            <span class="tokenNetwork">BNB</span></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="">
+                                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 16 16" class="text-main" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path fill-rule="evenodd" d="M4.646 9.646a.5.5 0 01.708 0L8 12.293l2.646-2.647a.5.5 0 01.708.708l-3 3a.5.5 0 01-.708 0l-3-3a.5.5 0 010-.708z" clip-rule="evenodd"></path>
+                                                                    <path fill-rule="evenodd" d="M8 2.5a.5.5 0 01.5.5v9a.5.5 0 01-1 0V3a.5.5 0 01.5-.5z" clip-rule="evenodd"></path>
+                                                                </svg>
+                                                            </div>
+                                                            <div class="flex flex-col py-2 px-4 rounded-2xl border border-gray-600
+      transition 
+       focus-within:outline-none focus-within:ring-2 focus-within:ring-sec
+        focus-within:border-transparent w-full">
+                                                                <div class="flex justify-content-between mb-1">
+                                                                    <div class="text-gray-400 text-sm">To</div>
+                                                                    <div class="text-gray-400 text-sm">Max. <spna id="maxAmountTarget">10</spna></div>
+                                                                </div>
+                                                                <div class="flex justify-content-between items-center">
+                                                                    <input name="tokensValue" class="bg-transparent focus:outline-none w-4/5" placeholder="0" onkeypress="javascript:return isNumber(event)" onkeyup="calculate2(this.value);">
+                                                                    <div class="mr-2">
+                                                                        <button onclick="setMaxAmountTargetToInput()" class="px-2 py-1 bg-gray-500 bg-opacity-50 rounded text-xs text-gray-400">
+                                                                            Max
+                                                                        </button>
+                                                                    </div>
+                                                                    <div class="">
+                                                                        <div class="flex items-center space-x-2">
+                                                                            <div class="h-6 w-6 rounded-full"><img src="https://trustpad.io/_next/static/media/dinoland.100505c9.jpg" class="h-6 bg-darkGray rounded-full">
+                                                                            </div>
+                                                                            <span class="">DNL</span></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="text-center">
+                                                            <button type="button" class="btn-sm py-2 no-hover btn btn-main btn btn-secondary" onclick="sendBNB()">
+                                                                Buy Tokens
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div id="blockConnectWallet02" class="absolute bg-darkGray bg-opacity-90 top-0 bottom-0 right-0 left-0 rounded-2xl">
+                                                        <div class="flex items-center justify-center text-lg h-full w-full text-center p-2">
+                                                            <div class="">
+                                                                <div class="dropdown">
+                                                                    <button onclick="connectMetamask()" aria-haspopup="true" aria-expanded="false" type="button" class="dropdown-toggle btn btn-main">Connect
+                                                                        Wallet
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="space-y-6">
+                                            <div>
+                                                <span style="display: none;">
+                                                    <span id="rateBuyBNB">32500</span>
+                                                    <span id="rateBuyETH">32500</span>
+                                                </span>
+                                                <div class="text-2xl brand-text">1
+                                                    <!-- --><span class="tokenNetwork">BNB</span>
+                                                    <!-- -->=
+                                                    <!-- --><span class="ratebuy">32500</span>
+                                                    <!-- -->
+                                                    <!-- -->DNL
+                                                </div>
+                                                <div class="text-lg brand-text">1
+                                                    <!-- -->DNL
+                                                    <!-- -->=
+                                                    <!-- --><span id="calRateBuy">0</span>
+                                                    <!-- -->
+                                                    <!-- --><span class="tokenNetwork">BNB</span>
+                                                </div>
+                                            </div>
+                                            <div class="space-y-1">
+                                                <div class="flex justify-between text-sm tracking-wide space-x-3">
+                                                    <div class="" id="clockdiv"><span>Ends in
+                                                        <!-- --> <span class="hours">00</span> hours,
+                                                                <span id="set-timer">10 minutes seconds</span>
+                                                            </span></div>
+                                                    <div class="font-medium opacity-90 text-right"><span class="text-main " id="MyValuepercent"></span></div>
+                                                </div>
+                                                <div class="h-2 bg-gray-600 progress">
+                                                    <div role="progressbar" class="progress-bar bg-primary" style="width:90%" id="myBar" aria-valuemax="100"><span class="sr-only">90</span></div>
+                                                </div>
+                                                <div class="flex justify-between text-sm tracking-wide space-x-3">
+                                                    <div class="text-ignored opacity-90 flex-shrink-0"><span id="Bnbpurchased"></span>
+                                                        <!-- -->
+                                                        <!-- --><span class="tokenNetwork">BNB</span>
+                                                    </div>
+                                                    <div class="text-ignored opacity-90 text-right"><span id="Tokensleft"></span>
+                                                        <!-- -->/
+                                                        <!-- -->
+                                                        <!-- --><span id="totalTokenBuy">7647058</span>
+                                                        <!-- -->
+                                                        <!-- -->DNL
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="space-y-3"><div class="flex items-center space-x-2 text-sm"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 640 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M634.91 154.88C457.74-8.99 182.19-8.93 5.09 154.88c-6.66 6.16-6.79 16.59-.35 22.98l34.24 33.97c6.14 6.1 16.02 6.23 22.4.38 145.92-133.68 371.3-133.71 517.25 0 6.38 5.85 16.26 5.71 22.4-.38l34.24-33.97c6.43-6.39 6.3-16.82-.36-22.98zM320 352c-35.35 0-64 28.65-64 64s28.65 64 64 64 64-28.65 64-64-28.65-64-64-64zm202.67-83.59c-115.26-101.93-290.21-101.82-405.34 0-6.9 6.1-7.12 16.69-.57 23.15l34.44 33.99c6 5.92 15.66 6.32 22.05.8 83.95-72.57 209.74-72.41 293.49 0 6.39 5.52 16.05 5.13 22.05-.8l34.44-33.99c6.56-6.46 6.33-17.06-.56-23.15z"></path></svg> <span>IDO and distribution on BSC</span></div><div class="flex items-center space-x-2 text-sm"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"></path></svg><div>Sale 23 Dec, 11:00 – 23 Dec, 16:00 UTC</div></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-3 lg:w-2/3 bg-dark bg-opacity-80 rounded-lg border-r border-dark shadow-lg">
+                                    <div class="md:p-3 z-10 space-y-8"><div class="pb-3"><div class="flex items-start justify-between mb-3 flex-wrap"><div class="flex items-center mb-3 md:mb-0"><div class="mr-3"><div style="width: 45px; height: 45px;"><img src="https://trustpad.io/_next/static/media/dinoland.100505c9.jpg" alt="DNL" class="h-full rounded-full"></div></div><h2 class="text-2xl font-secondary tracking-wide mb-0">Dinoland</h2></div><div class="space-x-3 flex items-center"><img src="https://trustpad.io/_next/static/media/binance_logo.e7c4d2ea.png" alt="Binance Smart Chain" class="md:h-6 h-5"></div></div><div class="mb-6 opacity-80 font-light space-y-3"><p>Dinoland Game will bring you to the land of "genuine" Dinos. The dinosaur here has a funny, lovely, friendly shape but don’t lower your guard - they all have full strength when fighting against the Monsters that attack their land.</p></div><div class="space-x-6 flex items-center"><ul class="flex flex-wrap items-center text-main space-x-6 z-20 relative text-2xl"><li><a href="https://t.me/dinolandglobal" target="_blank" class="text-main" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg></a></li><li><a href="https://t.me/dinolandofficial" target="_blank" class="text-main" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M576 240c0-23.63-12.95-44.04-32-55.12V32.01C544 23.26 537.02 0 512 0c-7.12 0-14.19 2.38-19.98 7.02l-85.03 68.03C364.28 109.19 310.66 128 256 128H64c-35.35 0-64 28.65-64 64v96c0 35.35 28.65 64 64 64h33.7c-1.39 10.48-2.18 21.14-2.18 32 0 39.77 9.26 77.35 25.56 110.94 5.19 10.69 16.52 17.06 28.4 17.06h74.28c26.05 0 41.69-29.84 25.9-50.56-16.4-21.52-26.15-48.36-26.15-77.44 0-11.11 1.62-21.79 4.41-32H256c54.66 0 108.28 18.81 150.98 52.95l85.03 68.03a32.023 32.023 0 0 0 19.98 7.02c24.92 0 32-22.78 32-32V295.13C563.05 284.04 576 263.63 576 240zm-96 141.42l-33.05-26.44C392.95 311.78 325.12 288 256 288v-96c69.12 0 136.95-23.78 190.95-66.98L480 98.58v282.84z"></path></svg></a></li><li><a href="https://twitter.com/dinolandgame" target="_blank" class="text-main" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a></li><li><a href="https://dinoland.io/" target="_blank" class="text-main" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"></path></svg></a></li></ul></div></div><div class="space-y-3"><h2 class="text-lg mb-2 font-secondary tracking-wider text-primary ">Pool Details</h2><div class="flex flex-col md:flex-row flex-wrap"><div class="md:w-1/2"><ul><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Access Type:</div><div class="">Levels</div></li><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Hard Cap:</div><div class="">$130 001</div></li><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Swap Rate:</div><div class=""><span class="text-main ">58.823 DNL</span> per <span class="text-main ">1 BUSD</span></div></li></ul></div><div class="md:w-1/2"><ul><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Start:</div><div class="">23 Dec, 11:00 am UTC</div></li><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">End:</div><div class="">23 Dec, 16:00 pm UTC</div></li></ul><ul class="list-disc list-inside"></ul></div><div></div></div></div><div><h2 class="text-lg mb-2 font-secondary tracking-wider text-primary ">Token</h2><ul><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Token:</div><div class=""><span class="text-main ">Dinoland (DNL)</span></div></li><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Type:</div><div class="">BEP-20</div></li><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Total Supply:</div><div class="">1 000 000 000 DNL</div></li><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Initial Supply:</div><div class=""><span class="text-main ">5 057 500 DNL</span>, market cap <span class="text-main ">$85 978</span></div></li><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Token Listing:</div><div class="">December 23rd</div></li></ul></div><div><h2 class="text-lg mb-2 font-secondary tracking-wider text-primary ">Distribution</h2><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Distribution:</div><div class=""><span>Claimed on TrustPad</span></div></li><li class="flex py-1 justify-between md:justify-start items-center"><div class="font-semibold mr-3">Vesting:</div><div class="">18% at TGE, from 2nd month linear vesting in 4 months</div></li><div class="mt-3"></div></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main class="relative"></main>
+            <footer>
+                <div class="text-center py-6 md:py-12 bg-dark2">
+                    <h2 class="text-2xl md:text-4xl mb-6 font-Rubik">Want to launch your project on TrustPad?</h2>
+                    <div class="inline-block"><a href="https://docs.google.com/forms/d/e/1FAIpQLSer-PUjhMDG5fmasXYkmvY3EgpTC-yaI4up5by6Hx5g_9wZaw/viewform" class="btn-apply"><i class="las la-space-shuttle la-2x mr-2 text-2xl"></i> Apply to
+                        Launch</a></div>
+                </div>
+                <div class="bg-dark2 py-12 relative">
+                    <div class="container">
+                        <div class="flex items-center flex-col md:flex-row space-y-12 md:space-y-0">
+                            <div class="md:w-1/3">
+                                <a class="text-white mr-auto no-underline pr-4 flex items-center no-hover" href="#">
+                                    <div><img src="https://trustpad.io/brand/trustpad_logo.svg" alt="Logo" class="mr-2 -mb-1 h-14"></div>
+                                    <div>
+                                        <div class="text-xl font-secondary">TrustPad</div>
+                                        <div class="text-xs tracking-wide">Making DeFi a Safer Place.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="md:w-1/3">
+                                <ul class="flex items-center justify-center space-x-12">
+                                    <li>
+                                        <a href="https://t.me/TrustPad" target="_blank" class="text-main">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 448 512" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://medium.com/@TrustPad" target="_blank" class="text-main">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 448 512" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/TrustPad" target="_blank" class="text-main">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 512 512" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://t.me/TrustPadAnn" target="_blank" class="text-main">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 448 512" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bscscan.com/address/0xADCFC6bf853a0a8ad7f9Ff4244140D10cf01363C" target="_blank" class="text-main"><img src="images\bscscan.png" alt="TrustPad on BscScan" class="h-7"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="md:w-1/3 md:text-right space-x-6 flex items-center justify-end">
+                                <h3 class="text-lg opacity-75">Audited by</h3>
+                                <div class="flex space-y-6 items-center flex-wrap flex-col">
+                                    <a href="https://www.certik.org/projects/trustpad" target="_blank"><img src="images\certik.svg" alt="Certik Trustpad audit" class="h-10"></a>
+                                    <a href="https://trustpad.io/QuillAudits-TrustPad-Smart-Contract-Audit-Report.pdf" target="_blank"><img src="images\quillaudits.png" alt="QuillAudits Trustpad audit" class="h-9"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-xs text-secondary mt-6 ml-3">Participants/Citizens from the following countries
+                            are strictly excluded/not allowed to participate in the IDOs: Algeria, Bangladesh, Belarus,
+                            Bolivia, Cambodia, Canada, China, Colombia, Ecuador, Egypt, Hong Kong, Indonesia, Iran,
+                            Iraq, Libya, Morocco, Nepal, Pakistan, Saudi Arabia, Sudan, Syria, Ivory Coast, Zimbabwe,
+                            Liberia, Myanmar, North Korea, Singapore, South Korea, The Crimea, and or the United States
+                            of America (USA), as well as Puerto Rico and the Virgin Islands and any other US possessions
+                            (the "Prohibited Jurisdictions").
+                        </div>
+                        <div class="flex justify-between items-center mt-6 -mb-6 flex-col-reverse md:flex-row">
+                            <div class="text-xs ml-3 text-secondary">© Copyright TrustPad
+                                <!-- -->2021
+                                <!-- -->. All rights reserved.
+                            </div>
+                            <div class="space-x-6"><a href="#">Privacy Policy</a><a href="#">Terms of use</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="Toastify"></div>
+        </div>
+    </div>
+    <div class="__react_component_tooltip t866ed8b5-627a-46d3-aba7-2e777150a13f place-bottom type-dark" id="t866ed8b5-627a-46d3-aba7-2e777150a13f" data-id="tooltip">
+        <style aria-hidden="true">
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f {
+                color: #fff;
+                background: #222;
+                border: 1px solid transparent;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-top {
+                margin-top: -10px;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-top::before {
+                border-top: 8px solid transparent;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-top::after {
+                border-left: 8px solid transparent;
+                border-right: 8px solid transparent;
+                bottom: -6px;
+                left: 50%;
+                margin-left: -8px;
+                border-top-color: #222;
+                border-top-style: solid;
+                border-top-width: 6px;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-bottom {
+                margin-top: 10px;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-bottom::before {
+                border-bottom: 8px solid transparent;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-bottom::after {
+                border-left: 8px solid transparent;
+                border-right: 8px solid transparent;
+                top: -6px;
+                left: 50%;
+                margin-left: -8px;
+                border-bottom-color: #222;
+                border-bottom-style: solid;
+                border-bottom-width: 6px;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-left {
+                margin-left: -10px;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-left::before {
+                border-left: 8px solid transparent;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-left::after {
+                border-top: 5px solid transparent;
+                border-bottom: 5px solid transparent;
+                right: -6px;
+                top: 50%;
+                margin-top: -4px;
+                border-left-color: #222;
+                border-left-style: solid;
+                border-left-width: 6px;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-right {
+                margin-left: 10px;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-right::before {
+                border-right: 8px solid transparent;
+            }
+
+            .t866ed8b5-627a-46d3-aba7-2e777150a13f.place-right::after {
+                border-top: 5px solid transparent;
+                border-bottom: 5px solid transparent;
+                left: -6px;
+                top: 50%;
+                margin-top: -4px;
+                border-right-color: #222;
+                border-right-style: solid;
+                border-right-width: 6px;
+            }
+        </style>
+    </div>
+</div>
+<div class="Toastify" id="Toastify" style="display: none">
+    <div class="Toastify__toast-container Toastify__toast-container--bottom-right">
+        <div id="web3Error" class="Toastify__toast Toastify__toast--warning" style="transition: transform 0.2s ease 0s, opacity 0.2s ease 0s; transform: translateX(0px); opacity: 1;">
+            <div role="alert" class="Toastify__toast-body">No Ethereum browser extension detected, install MetaMask on
+                desktop or visit from a dApp browser on mobile.
+            </div>
+            <button onclick="closeNotify()" class="Toastify__close-button Toastify__close-button--warning" type="button" aria-label="close">
+                <svg aria-hidden="true" viewbox="0 0 14 16">
+                    <path fill-rule="evenodd" d="M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+<script src="ethers-5.2.umd.min.js" type="application/javascript"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
