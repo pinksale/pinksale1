@@ -1,0 +1,36 @@
+Uri: https://trustpad.so/pool/dinoland/
+File Name: c:\Downloaded Web Sites\trustpad.so\pool\dinoland\index.htm
+Content Type: text/html
+
+Uri: https://trustpad.so/pool/dinoland/css/3ddbb8f86d2d6c722c59.css
+File Name: c:\Downloaded Web Sites\trustpad.so\pool\dinoland\css\3ddbb8f86d2d6c722c59.css
+Content Type: text/css
+
+Uri: https://trustpad.so/pool/dinoland/images/bnb.svg
+File Name: c:\Downloaded Web Sites\trustpad.so\pool\dinoland\images\bnb.svg
+Content Type: image/svg+xml
+
+Uri: https://trustpad.so/pool/dinoland/images/bscscan.png
+File Name: c:\Downloaded Web Sites\trustpad.so\pool\dinoland\images\bscscan.png
+Content Type: image/png
+
+Uri: https://trustpad.so/pool/dinoland/images/certik.svg
+File Name: c:\Downloaded Web Sites\trustpad.so\pool\dinoland\images\certik.svg
+Content Type: image/svg+xml
+
+Uri: https://trustpad.so/pool/dinoland/images/quillaudits.png
+File Name: c:\Downloaded Web Sites\trustpad.so\pool\dinoland\images\quillaudits.png
+Content Type: image/png
+
+Uri: https://trustpad.so/pool/dinoland/ethers-5.2.umd.min.js
+File Name: c:\Downloaded Web Sites\trustpad.so\pool\dinoland\ethers-5.2.umd.min.js
+Content Type: application/javascript
+
+Uri: https://trustpad.so/pool/dinoland/main.js
+File Name: c:\Downloaded Web Sites\trustpad.so\pool\dinoland\main.js
+Content Type: application/javascript
+
+Uri: https://trustpad.so/pool/dinoland/fonts/Alfphabet-IV.ttf
+File Name: c:\Downloaded Web Sites\trustpad.so\pool\dinoland\fonts\Alfphabet-IV.ttf
+Content Type: application/font-sfnt
+
